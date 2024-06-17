@@ -1,0 +1,17 @@
+---
+type: InputOutputExercice
+studentId: 5878
+activityId: 140878
+outputTests:
+  - command: cmd /C type manifest.txt || cat manifest.txt
+    includes:
+      - "Main-Class: DnsApp"
+  - command: jar cvfm dns.jar manifest.txt ./classes/
+    includes: []
+  - command: java -jar dns.jar 127.0.0.1
+    includes:
+      - localhost
+  - command: java -jar dns.jar efrei.net
+    includes: []
+activityNumber: 11
+submissionUrl: https://nowledgeable.com/api/assessed-answer

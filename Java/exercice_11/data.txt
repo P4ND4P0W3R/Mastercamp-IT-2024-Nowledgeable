@@ -1,0 +1,5 @@
+160.168.11.20    ussef.efrei.xin207
+192.255.150.21   PCA.efrei.xdev204
+174.20.150.220   PCB.efrei.xin203
+165.40.150.220   PCC.gorki.xin205
+127.0.0.1        localhost

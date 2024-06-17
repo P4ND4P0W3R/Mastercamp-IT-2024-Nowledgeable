@@ -1,0 +1,8 @@
+- command: "ls src|| cmd /C dir src"
+  includes: [File.java, Main.java, Folder.java]
+- command: "java -cp classes Main"
+  includes: [main.js, ""]
+- command: "jar cvfm filesystem.jar manifest.txt ./classes/"
+  includes: {}
+- command: "java -jar filesystem.jar"
+  includes: [main.js, test.js, readme.md]
