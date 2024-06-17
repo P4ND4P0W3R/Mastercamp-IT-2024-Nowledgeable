@@ -1,0 +1,6 @@
+-
+    command: 'cat package.json || cmd /C type package.json'
+    includes: [express]
+-
+    command: 'node test_backend1.js'
+    includes: [eat]

@@ -1,0 +1,14 @@
+---
+type: InputOutputExercice
+studentId: 5878
+activityId: 140892
+outputTests:
+- command: cat package.json || cmd /C type package.json
+  includes:
+  - express
+- command: node test_backend1.js
+  includes:
+  - eat
+activityNumber: 5
+submissionUrl: https://nowledgeable.com/api/assessed-answer
+...
