@@ -1,0 +1,10 @@
+---
+type: InputOutputExercice
+studentId: 5878
+activityId: 140824
+outputTests:
+- command: pytest test_base.py
+  includes: []
+activityNumber: 14
+submissionUrl: https://nowledgeable.com/api/assessed-answer
+...

@@ -1,0 +1,3 @@
+-
+    command: 'pytest test_base.py'
+    includes: {  }
